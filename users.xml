@@ -6,8 +6,9 @@
         
     </listeners>
   <test thread-count="5" name="Test">
+       <parameter name="system" value="local"></parameter>
        <parameter name="browser" value="chrome"></parameter>
-      <parameter name="baseurl" value="http://127.0.0.1/login.do;jsessionid=17esj6s96l278"></parameter>
+      <parameter name="baseurl" value="http://127.0.0.1/login.do;jsessionid=9iace2gh2km1"></parameter>
     <classes>
       <class name="Com.actitime.scripts.UsersTest"/>
     </classes>
