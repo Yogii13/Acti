@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[suite execution startsSat May 11 19:41:03 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[chrome launched]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do;jsessionid=9iace2gh2km1url navigated]]>
+    </line>
+    <line>
+      <![CDATA[validLoginscript executedSat May 11 19:41:08 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Home page verified]]>
+    </line>
+    <line>
+      <![CDATA[home page title is verified]]>
+    </line>
+    <line>
+      <![CDATA[validLoginscript is passed]]>
+    </line>
+    <line>
+      <![CDATA[invalidLoginscript executedSat May 11 19:41:17 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[invalid login msg is verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[invalidLoginscript is passed]]>
+    </line>
+    <line>
+      <![CDATA[browser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16342" started-at="2019-05-11T14:11:03Z" finished-at="2019-05-11T14:11:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16342" started-at="2019-05-11T14:11:03Z" finished-at="2019-05-11T14:11:19Z">
+      <class name="Com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com.actitime.scripts.LoginTest@5e3a8624]" name="precondition" is-config="true" duration-ms="5613" started-at="2019-05-11T14:11:03Z" finished-at="2019-05-11T14:11:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do;jsessionid=9iace2gh2km1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome launched]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do;jsessionid=9iace2gh2km1url navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:Com.actitime.scripts.LoginTest@5e3a8624]" name="validLogin" duration-ms="8868" started-at="2019-05-11T14:11:08Z" finished-at="2019-05-11T14:11:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[validLoginscript executedSat May 11 19:41:08 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[Home page verified]]>
+            </line>
+            <line>
+              <![CDATA[home page title is verified]]>
+            </line>
+            <line>
+              <![CDATA[validLoginscript is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:Com.actitime.scripts.LoginTest@5e3a8624]" name="invalidLogin" duration-ms="1036" started-at="2019-05-11T14:11:17Z" depends-on-methods="Com.actitime.scripts.LoginTest.validLogin" finished-at="2019-05-11T14:11:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[invalidLoginscript executedSat May 11 19:41:17 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[invalid login msg is verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[invalidLoginscript is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:Com.actitime.scripts.LoginTest@5e3a8624]" name="postcondition" is-config="true" duration-ms="774" started-at="2019-05-11T14:11:18Z" finished-at="2019-05-11T14:11:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Com.actitime.scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

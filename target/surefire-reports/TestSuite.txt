@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 6.059 s <<< FAILURE! - in TestSuite
+precondition(Com.actitime.scripts.LoginTest)  Time elapsed: 4.312 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.11 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NEW', ip: '192.168.1.103', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_31'
+Driver info: driver.version: ChromeDriver
+
