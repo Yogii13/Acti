@@ -33,6 +33,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>login.xml</suiteXmlFile>
+            <suiteXmlFiles>task.xml</suiteXmlFiles>
+            <suiteXmlFiles>users.xml</suiteXmlFiles>
+            
             
           </suiteXmlFiles>
         </configuration>
